@@ -51,7 +51,6 @@ app.get("/api/health", (req, res) => {
   });
 });
 
-const PORT = process.env.PORT ?? 60006;
 const HOST = process.env.HOST ?? "0.0.0.0";
 
 app.listen(PORT, function () {
