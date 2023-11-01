@@ -53,7 +53,7 @@ app.get("/api/health", (req, res) => {
 
 const HOST = process.env.HOST ?? "0.0.0.0";
 
-app.listen(PORT, function () {
+app.listen(PORT, HOST, function () {
   console.log("Port is running");
 });
 
