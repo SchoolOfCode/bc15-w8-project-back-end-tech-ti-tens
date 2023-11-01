@@ -3,13 +3,13 @@ import express from "express";
 import logger from "morgan";
 import cors from "cors";
 
-import { getAllQuestions} from "./quiz/quiz.js"
+import { getAllQuestions } from "./quiz/quiz.js";
 import { getQuestionById } from "./quiz/quiz.js";
 
 // Initialise the express app
 const app = express();
 
-app.use(cors())
+app.use(cors());
 
 // initialise morgan app
 app.use(logger("dev"));
@@ -28,7 +28,7 @@ app.get("/quiz/:id", async function (req, res) {
   }
   res.status(200).json({ status: "success", data: question });
 });
-// Endpoint to retrieve a all questions 
+// Endpoint to retrieve a all questions
 app.get("/quiz/", async function (req, res) {
   const allQuestions = await getAllQuestions();
   res.status(200).json({ status: "success", data: allQuestions });
@@ -50,6 +50,9 @@ app.get("/api/health", (req, res) => {
     payload: "API is running correctly",
   });
 });
+
+const PORT = process.env.PORT ?? 60006;
+const HOST = process.env.HOST ?? "0.0.0.0";
 
 app.listen(PORT, function () {
   console.log("Port is running");
