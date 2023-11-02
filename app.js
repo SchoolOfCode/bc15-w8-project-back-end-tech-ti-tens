@@ -15,6 +15,7 @@ app.use(cors())
 app.use(logger("dev"));
 // Retrieve the port number
 const PORT = process.env.PORT;
+const HOST = process.env.HOST ?? '0.0.0.0';
 
 // Endpoint to retrieve a specific question by id
 app.get("/quiz/:id", async function (req, res) {
@@ -51,8 +52,8 @@ app.get("/api/health", (req, res) => {
   });
 });
 
-app.listen(PORT, function () {
-  console.log("Port is running");
+app.listen(PORT, HOST, function () {
+  console.log(`Port is running http://localhost:${PORT}`);
 });
 
 export default app;
