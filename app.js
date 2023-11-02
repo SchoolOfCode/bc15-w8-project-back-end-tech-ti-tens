@@ -51,7 +51,7 @@ app.get("/api/health", (req, res) => {
   });
 });
 
-app.listen(PORT, function () {
+app.listen(PORT, HOST, function () {
   console.log("Port is running");
 });
 
