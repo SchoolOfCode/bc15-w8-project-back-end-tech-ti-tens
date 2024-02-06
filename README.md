@@ -30,6 +30,8 @@ Bootcampers were encouraged to use spaced repetition and interleave the course c
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
+The brief was to build a solution to a bootcamper problem. It was vital that we were pragmatic with our approach in order to complete the Mid-term project (week 8). 
+
 There was an enormous amount of content over the first eight weeks at the School of Code bootcamp and we were encouraged to use spaced repetition and interleave our knowledge to boost the retention of the key information. 
 
 Bootcampers don't tend to have a lot of time or energy after a full day problem solving, learning new tech, reading docs or creating solutions so we wanted a quick, easy and fun way to help retain some of the things that we had learned. 
@@ -37,6 +39,8 @@ Bootcampers don't tend to have a lot of time or energy after a full day problem 
 ## 💡 Idea / Solution <a name = "idea"></a>
 
 Our solution to this was to build a simple app to challenge the user to remember the answer to true/false questions. We designed, ideated and built this app in 5 days. It has a front end built with HTML, CSS and JavaScript and a back end that is hosted by a database, we created an API to manage the data requests. 
+
+For technical skills we used HTML, CSS and javascript, other skills included the ability to think calmly under pressure in order to meet the brief in the short timeframe. We collaborated to ideate, design, build and demo a product within a week. This provided the first experience of writing questionnaires to correctly define the problem and generate User Personas.
 
 There was also a focus on including accessibility into our build. We considered it from the design phase and wanted to ensure that fonts were large and contrasted suitably to ensure readability. The borders flash a colour to indicate a correct or incorrect answer in addition to text being displayed. We also ensured the app could be used with a keyboard only to navigate the options.
 
@@ -71,6 +75,7 @@ You can visit our app here -> <a href="https://bc15-w8-project-front-end-tech-ti
 
 ## 🏫 Lessons Learned <a name = "lessons_learned"></a>
 
+- How to implement an MVC style backend to streamline the way it works and ensure that it is robust and scalealbe in the future.
 - We lost time waiting for the back end to create the database and designing how the data object would look before the front end could write the code necessary to import the question logic into their code. In future, to remove this blocker, it would be discussed and a mock up made that both teams work from.
 - Good planning in general goes a long way and then the code basically writes itself.
 - Having a different Scrum Master per day allowed for easy decision making, task priorisation and day-to-day structure.
