@@ -7,7 +7,10 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon -r dotenv/config server.js",
-    "reset-database": "node -r dotenv/config db/scripts/reset-database.js"
+    "reset-database": "node -r dotenv/config db/scripts/reset-database.js",
+    "format": "your-formatting-command",
+    "lint": "your-linting-command",
+    "test": "your-testing-command"
   },
   "keywords": [],
   "author": "",
