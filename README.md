@@ -1,8 +1,4 @@
-# The Tech-titans Presents
-
-<center>
-<img src="image.png" alt="tech-titan logo">
-</center>
+# The <img src="image.png" alt="tech-titen logo"> Presents
 
 <h2 align="center"> Revision App <br> <i>To help with bootcampers revision</i></h2>
 
